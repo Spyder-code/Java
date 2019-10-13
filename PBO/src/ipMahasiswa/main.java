@@ -15,14 +15,8 @@ public class main {
     public static void main(String args[]){
         Scanner input = new Scanner(System.in);
         Scanner iinput = new Scanner(System.in);
-        String nama;
-        String jadwal;
-        String dosen;
-        int sks;
-        String matkul;
-        int nilai;
-        int nim;
-        int jmlhMatkul;
+        String nama,jadwal,dosen,matkul;
+        int sks,nilai,nim,jmlhMatkul;
         System.out.print("Nama mahasiswa : ");
         nama = iinput.nextLine();
         System.out.print("NIM : ");

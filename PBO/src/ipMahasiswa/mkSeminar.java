@@ -18,6 +18,7 @@ public class mkSeminar extends MataKuliah {
         super(jadwal, dosenPengampu, mataKuliah, sks);
     }
 
+   
 
      public void setNilai(int pembimbing, int artikel, int presentasi){
      this.pembimbing = pembimbing;

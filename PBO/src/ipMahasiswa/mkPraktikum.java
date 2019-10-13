@@ -39,10 +39,5 @@ public class mkPraktikum extends MataKuliah{
         return nilaiTotal;
     }
 
-    @Override
-    public void nilai() {
-        super.nilai(); //To change body of generated methods, choose Tools | Templates.
-    }
-   
    
 }
