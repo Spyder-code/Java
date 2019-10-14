@@ -6,6 +6,7 @@
 package TugasPbo.ipMahasiswa;
 
 import inheritance.Tugas.Pegawai;
+import java.text.DecimalFormat;
 
 /**
  *
@@ -58,6 +59,7 @@ public class mahasiswa {
         double ip =0;
         int sks =0;
         double totalIp;
+        DecimalFormat df = new DecimalFormat("#.##");
         System.out.println("nama : "+nama);
         System.out.println("NIM  : "+nim);
         System.out.println("");
@@ -69,7 +71,7 @@ public class mahasiswa {
            System.out.println("");
        }
        totalIp = ip/sks;
-        System.out.println("IP Mahasiswa : "+totalIp);
+        System.out.println("IP Mahasiswa : "+df.format(totalIp));
     }
     
 }

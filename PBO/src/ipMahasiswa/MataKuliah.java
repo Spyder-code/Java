@@ -21,7 +21,6 @@ public class MataKuliah {
         this.jadwal = jadwal;
         this.dosenPengampu = dosenPengampu;
         this.sks = sks;
-        this.nilai = nilai;
         this.mataKuliah = mataKuliah;
     }
 
@@ -96,13 +95,10 @@ public class MataKuliah {
     public void setMataKuliah(String mataKuliah) {
         this.mataKuliah = mataKuliah;
     }
-     public void nilai() {
-       getIp();
-    }
+    
     double angka;
     public double getIp(){
        String huruf;
-       
        if(getNilai()>=91&&getNilai()<=100){
            huruf="A+";
            angka=4.00;

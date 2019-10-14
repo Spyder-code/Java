@@ -32,11 +32,5 @@ public class mkKelas extends MataKuliah {
         int nilaiTotal = ((performance*10)+(uts*20)+(tugas*30)+(uas*40))/100;
         return nilaiTotal;
     }
-
-    @Override
-    public void nilai() {
-        super.nilai(); //To change body of generated methods, choose Tools | Templates.
-    }
-   
     
 }
